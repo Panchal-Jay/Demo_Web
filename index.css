@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(20, 217, 201);
+    overflow-x:hidden;
+}
+.navbar{
+    background-color: rgb(18, 141, 207);
+    color: white;
+}
+
+.form-group{
+   display: flex;
+   margin: 8px;
+}
+.dropdown a,
+.dropdown a:after,
+.dropdown a:before{
+    transition: all .2s;
+    border-bottom: 5px solid transparent;
+}
+.dropdown .dropdown-menu{
+    opacity: 1;
+    transition:         all 300ms ease-in-out;
+    -moz-transition:    all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition:      all 300ms ease-in-out;
+    -ms-transition:     all 300ms ease-in-out;
+}
+.dropdown:hover .dropdown-menu {
+        opacity: 1;
+}
+.logo{
+        font-size: 200px;
+}
+.row1{
+    background-color: rgba(55, 143, 92, 0.938);
+    border-radius: 5px;
+    color: white;
+}
+.tlinks{
+    text-decoration: none;
+    color: green;
+}
+.imgbar{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.container1{
+    height: fit-content;
+}
+.customer{
+    height: 20vh;
+}
+img{
+    width: 100%;
+}
+#myCarousel{
+    margin-top: 50px;
+}
+
+.quote{
+    font-size: large;
+}
+.btnfit{
+    margin-bottom: 5px;
+}
+.heading{
+    font-family: Cinzel;
+    margin: 2.5rem;
+}
+.background{
+    background-color: rgb(215, 235, 224);
+}
+.line{
+    background-color: rgb(0, 95, 36);
+    height: 40px;
+}
+.hrule{
+    border-top:2px solid rgb(0, 95, 36);;
+}
+.hruledown{
+    border-top: 1px solid rgb(32, 216, 130);
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-flex;
+    margin-right: 20px;
+    width: 40px;
+}
+
+.socialbtns .fa {
+	color:white;
+	text-shadow: 1px 1px 0px black,
+			1px -1px 0px  black,
+			-1px 1px 0px  black,
+			-1px -1px 0px  black;
+	-webkit-text-shadow: 1px 1px 0px black  ,
+			1px -1px 0px black,
+			-1px 1px 0px  black,
+			-1px -1px 0px  black;
+	-moz-text-shadow: 1px 1px 0px black ,
+			1px -1px 0px black,
+			-1px 1px 0px  black,
+			-1px -1px 0px  black;
+	-o-text-shadow: 1px 1px 0px  black,
+			1px -1px 0px black,
+			-1px 1px 0px  black,
+			-1px -1px 0px  black;
+	transition: all ease-out 0.5s;
+	-moz-transition: all ease-out 0.5s;
+	-webkit-transition: all ease-out 0.5s;
+	-o-transition: all ease-out 0.5s;
+}
+
+.socialbtns .fa:hover {
+	color:black;
+	text-shadow: 1px 1px 0px white,
+			1px -1px 0px white,
+			-1px 1px 0px white,
+			-1px -1px 0px white;
+	-webkit-text-shadow: 1px 1px 0px white,
+			1px -1px 0px white,
+			-1px 1px 0px white,
+			-1px -1px 0px white;
+	-moz-text-shadow: 1px 1px 0px white,
+			1px -1px 0px white,
+			-1px 1px 0px white,
+			-1px -1px 0px white;
+	-o-text-shadow: 1px 1px 0px white,
+			1px -1px 0px white,
+			-1px 1px 0px white,
+			-1px -1px 0px white;
+	transition: all ease 0.5s;
+	-moz-transition: all ease-in 0.5s;
+	-webkit-transition: all ease-in 0.5s;
+	-o-transition: all ease-in 0.5s;
+}
+
+@media only scree and (max-width:576px){
+    .dropdown:hover .dropdown-menu{
+        opacity: 1;
+    }
+}
